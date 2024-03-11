@@ -1,0 +1,30 @@
+/* .list {
+  /* background-color: black; */
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.date {
+  margin-bottom: 5px;
+}
+
+.task-details {
+  display: flex;
+  align-items: center;
+}
+
+.task-details span {
+  margin-right: 10px;
+}
+
+/* Styling for completed tasks (optional) */
+.task-details span.completed {
+  text-decoration: line-through;
+}
